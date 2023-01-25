@@ -39,7 +39,7 @@ const Header = () => {
     >
       <Navbar.Brand as={Link} to="/">
         <img
-          src="/src/images/logo.png"
+          src="/images/logo.png"
           style={{
             borderRadius: '50%',
             marginLeft: '0.5rem',
