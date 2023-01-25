@@ -139,7 +139,7 @@ const Apps = (props) => {
                 used React Router to create the navigation bar and the links to
                 the projects and contact pages.
               </Card.Text>
-              <a href="https://simaportifolio.netlify.app">
+              <a href="https://simaport.netlify.app">
                 <Button variant="primary">Visit App</Button>
               </a>
             </Card.Body>
