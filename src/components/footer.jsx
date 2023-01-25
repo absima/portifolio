@@ -58,7 +58,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCZ9Q6iOVk1fIGKdV0wQMKVw"
+            href="https://www.youtube.com/@absima26"
             target="_blank"
             rel="noopener noreferrer"
           >
