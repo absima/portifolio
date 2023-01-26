@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 
 const Contact = (props) => {
   return (
-    <Container>
+    <Container >
       <Row>
         <Col>
           <h1>Contact</h1>
         </Col>
       </Row>
-      <Row>
+      <Row className='controw'>
         <Col sm={12} md={4}>
           <Card>
             <Card.Body>

@@ -31,8 +31,7 @@ const Apps = (props) => {
       >
         <Col sm={12} md={6} lg={4}>
           <Card
-            // bg='secondary'
-            text={false ? 'light' : 'black'}
+           
           >
             <Card.Body>
               <Card.Title className="card-title">simazon</Card.Title>

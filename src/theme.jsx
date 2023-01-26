@@ -22,5 +22,8 @@ export const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.text};
     transition: all 0.50s linear;
   }
+  
+
 `;
+
 
