@@ -74,29 +74,35 @@ const Header = () => {
               <i className="fas fa-globe"></i>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
-              <Dropdown.Item href="https://www.linkedin.com/in/simachew/">
-                <i className="fab fa-linkedin"></i> LinkedIn
-              </Dropdown.Item>
-              <Dropdown.Item
-                href="
+            <Dropdown.Menu
+            // style={{
+            //   display: 'flex',
+            //   justifyContent: 'space-around',
+            // }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-around',
+                }}
+              >
+                <Dropdown.Item href="https://www.linkedin.com/in/simachew/">
+                  <i className="fab fa-linkedin"></i> LinkedIn
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="
                 https://github.com/absima
                 "
-              >
-                <i className="fab fa-facebook"></i> GitHub
-              </Dropdown.Item>
-              <Dropdown.Item href="https://twitter.com/absima26">
-                <i className="fab fa-twitter"></i> Twitter
-              </Dropdown.Item>
-              <Dropdown.Item href="https://www.youtube.com/@absima26">
-                <i className="fab fa-youtube"></i> YouTube
-              </Dropdown.Item>
-              <Dropdown.Item href="https://www.facebook.com/absima">
-                <i className="fab fa-facebook"></i> Facebook
-              </Dropdown.Item>
-              <Dropdown.Item href="https://www.instagram.com/absima26/">
-                <i className="fab fa-instagram"></i> Instagram
-              </Dropdown.Item>
+                >
+                  <i className="fab fa-facebook"></i> GitHub
+                </Dropdown.Item>
+                <Dropdown.Item href="https://twitter.com/absima26">
+                  <i className="fab fa-twitter"></i> Twitter
+                </Dropdown.Item>
+                <Dropdown.Item href="https://www.youtube.com/@absima26">
+                  <i className="fab fa-youtube"></i> YouTube
+                </Dropdown.Item>
+              </div>
             </Dropdown.Menu>
           </Dropdown>
         </Nav>
