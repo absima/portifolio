@@ -67,7 +67,7 @@ const Apps = (props) => {
                 of its id, name or kind. There is also a memory card game that a
                 user can play by choosing one of the difficulty levels.
               </Card.Text>
-              <a href="https://pokéstuff.netlify.app">
+              <a href="https://pokefightdss.netlify.app">
                 <Button variant="primary" 
                 
                 >Visit App</Button>
