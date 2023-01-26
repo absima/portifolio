@@ -91,7 +91,7 @@ const Footer = () => (
           padding: '0.0rem',
         }}
       >
-        <li>Simachew Mengiste</li>
+        {/* <li>Simachew Mengiste</li> */}
         <li>{new Date().getFullYear()} &copy; Simachew</li>
       </ul>
     </Container>

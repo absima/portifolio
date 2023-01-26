@@ -46,9 +46,6 @@ const Apps = (props) => {
               <a href="https://simazon.netlify.app">
                 <Button variant="primary">Visit App</Button>
               </a>
-              {/* <Link to="simazon.netlify.app">
-                
-              </Link> */}
             </Card.Body>
           </Card>
         </Col>
@@ -68,9 +65,7 @@ const Apps = (props) => {
                 user can play by choosing one of the difficulty levels.
               </Card.Text>
               <a href="https://pokefightdss.netlify.app">
-                <Button variant="primary" 
-                
-                >Visit App</Button>
+                <Button variant="primary">Visit App</Button>
               </a>
             </Card.Body>
           </Card>
@@ -97,14 +92,14 @@ const Apps = (props) => {
             <Card.Body>
               <Card.Title>contacts</Card.Title>
               <Card.Text>
-                It is basically react router tutorial of v-6. Because I used to
-                apply the earlier versions, I decided to follow the tutorial of
-                v-6. Because I liked the app, I ended up creating a new API to
-                replace the fake network used in the tutorial. Apart from
-                creating its own server, I modified some parts of the frontend
-                as well such as the search filter.
+                It is basically a tutorial of React Router v-6. As I have been
+                using the earlier version, I decided to follow the tutorial to
+                get the idea. I liked the result when all the pieces were put
+                together. I created its own server to replace the "fake network"
+                and I twiked the app a bit to communicate with the API. I also
+                modified the search filter.
               </Card.Text>
-              <a href="https://contacts.netlify.app">
+              <a href="https://simacontacts.netlify.app">
                 <Button variant="primary">Visit App</Button>
               </a>
             </Card.Body>
@@ -131,7 +126,9 @@ const Apps = (props) => {
         <Col sm={12} md={6} lg={4}>
           <Card>
             <Card.Body>
-              <Card.Title>portifolio</Card.Title>
+              <Card.Title bg="dark" text="light">
+                portifolio
+              </Card.Title>
               <Card.Text>
                 This is the portifolio that you are currently visiting. It is a
                 React app that I created to display my projects and contact

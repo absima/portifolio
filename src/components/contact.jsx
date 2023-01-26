@@ -28,7 +28,7 @@ const Contact = (props) => {
             <Card.Body>
               <Card.Title>Gmail adress</Card.Title>
               <Card.Text>
-                <a href="mailto:absima@gmail.com"> simachew.mengiste@gmail.com </a>
+                <a href="mailto:absimath@gmail.com"> absimath@gmail.com </a>
               </Card.Text>
             </Card.Body>
           </Card>

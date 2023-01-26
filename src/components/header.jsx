@@ -34,7 +34,7 @@ const Header = () => {
       variant="light"
       // fixed="top"
       style={{
-        borderBottom: '5px solid #6f0404',
+        borderBottom: '0.2rem solid #6f0404',
       }}
     >
       <Navbar.Brand as={Link} to="/">
