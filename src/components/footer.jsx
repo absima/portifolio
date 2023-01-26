@@ -16,7 +16,8 @@ import {
 
 const Footer = () => (
   <footer className="mt-5">
-    <Container fluid={true}>
+    <Container 
+    >
       <ul
         style={{
           display: 'flex',
@@ -25,6 +26,7 @@ const Footer = () => (
           fontSize: '1.5rem',
           backgroundColor: '#f4f4f4',
           border: '0.2rem solid #6f0404',
+          width: '100%',
         }}
       >
         <li>
