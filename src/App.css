@@ -25,14 +25,14 @@ nav {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  box-shadow: 0 0 2em #3c66c9;
+  box-shadow: 0 0 2em hsl(222, 57%, 51%);
   /* color: rgb(49, 39, 39); */
   /* color: hsl(0, 88%, 3%); */
   /* color: white */
   /* font-family: 'Inter', sans-serif; */
   /* border-bottom: 5rem; */
   margin-bottom: 5rem;
-  background-color: hsl(0, 93%, 23%, 0.3);
+  background-color: hsl(0, 0%, 0%, 0.3);
 }
 
 
@@ -100,5 +100,5 @@ a:hover {
 }
 
 .controw .card{
-  background-color: hsl(0, 93%, 23%, 0.3);
+  background-color: hsl(0, 0%, 0%, 0.3);
 }
