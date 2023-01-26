@@ -15,9 +15,7 @@ import {
 
 const Footer = () => (
   <footer className="mt-5">
-    <Container fluid={true}
-    
-    >
+    <Container fluid={true}>
       <ul
         style={{
           display: 'flex',
@@ -25,7 +23,6 @@ const Footer = () => (
           listStyle: 'none',
           fontSize: '1.5rem',
           backgroundColor: '#f4f4f4',
-
         }}
       >
         <li>
@@ -84,23 +81,68 @@ const Footer = () => (
           </a>
         </li>
       </ul>
-      <Row className="border-top justify-content-between p-3">
-        <Col className="p-0" md={3} sm={12}>
-          <a
-            href="https://www.linkedin.com/in/simachew/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Simachew Mengiste
-          </a>
-        </Col>
-        <Col className="p-0 d-flex justify-content-end" md={3}>
-          {/* This year's date is automatically updated by the code below. */}
-          {new Date().getFullYear()} &copy; Simachew
-        </Col>
-      </Row>
+
+      <ul
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          listStyle: 'none',
+          fontSize: '1.0rem',
+          padding: '0.0rem',
+        }}
+      >
+        <li>Simachew Mengiste</li>
+        <li>{new Date().getFullYear()} &copy; Simachew</li>
+      </ul>
     </Container>
   </footer>
 );
 
 export default Footer;
+
+// <ul>
+//         <li>
+//           <Link to="/about">About</Link>
+//         </li>
+//         <li>
+//           <Link to="/contact">Contact</Link>
+//         </li>
+
+//         <li>
+//           <Link to="/privacy">Privacy</Link>
+//         </li>
+//       </ul>
+
+//       <ul>
+//         <li>
+//           <Link to="/terms">Terms</Link>
+//         </li>
+//         <li>
+//           <Link to="/cookies">Cookies</Link>
+//         </li>
+//         <li>
+//           <Link to="/disclaimer">Disclaimer</Link>
+//         </li>
+//       </ul>
+//       <ul>
+//         <li>
+//           <Link to="/sitemap">Sitemap</Link>
+//         </li>
+//         <li>
+//           <Link to="/faq">FAQ</Link>
+//         </li>
+//         <li>
+//           <Link to="/help">Help</Link>
+//         </li>
+//       </ul>
+//       <ul>
+//         <li>
+//           <Link to="/advertise">Advertise</Link>
+//         </li>
+//         <li>
+//           <Link to="/careers">Careers</Link>
+//         </li>
+//         <li>
+//           <Link to="/donate">Donate</Link>
+//         </li>
+//       </ul>
