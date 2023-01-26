@@ -16,9 +16,13 @@ const About = () => {
       <Row
         style={{
           marginBottom: '-2rem',
+          // height: '55rem',
         }}
       >
         <Col sm={12} md={6}>
+          <div>
+            
+          </div>
           <Card>
             <Card.Body>
               <Card.Title
@@ -35,7 +39,10 @@ const About = () => {
                   style={{
                     display: 'flex',
                     // justifyContent: 'center',
-                    width: '90%',
+                    // width: '100%',
+                    height: '15rem',
+                    width: '18rem',
+
                   }}
                 >
                   <img src={me} alt=" " style={{ width: '100%' }} />
@@ -50,12 +57,46 @@ const About = () => {
                   padding: '1rem',
                   borderRadius: '5px',
                   borderStyle: 'dashed',
-                  width: '90%',
+                  width: '18rem',
                 }}
               >
                 <Row>
-                  <Col>linkedin:</Col>
-                  <Col sm={8}>
+                  <Col xs="4">email:</Col>
+                  <Col>
+                    <a href="mailto:absimath@gmail.com">absimath@gmail.com</a>
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col xs="4">github:</Col>
+                  <Col>
+                    <a
+                      href="
+                      https://github.com/absima
+                      "
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      github.com/absima
+                    </a>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs="4">linkedin:</Col>
+                  <Col>
+                    <a
+                      href="https://www.linkedin.com/in/simachew/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      linkedin.com/ in/simachew
+                    </a>
+                  </Col>
+                </Row>
+
+                {/* <Row>
+                <Col xs="auto"> linkedin:</Col>
+                  <Col >
                     <a
                       href="https://www.linkedin.com/in/simachew/"
                       target="_blank"
@@ -67,8 +108,12 @@ const About = () => {
                 </Row>
 
                 <Row>
-                  <Col>github:</Col>
-                  <Col sm={8}>
+                  <Col xs="auto"
+                  style={{
+                    backgroundColor: '#3c66c9',
+                  }}
+                  >github:</Col>
+                  <Col>
                     <a
                       href="
                       https://github.com/absima"
@@ -80,13 +125,13 @@ const About = () => {
                   </Col>
                 </Row>
                 <Row>
-                  <Col>email:</Col>
-                  <Col sm={8}>
+                  <Col xs="auto">email:</Col>
+                  <Col >
                     <a href="mailto:simachew.mengiste@gmail.com">
                       absimath@gmail.com
                     </a>
                   </Col>
-                </Row>
+                </Row> */}
               </Card.Text>
             </Card.Body>
           </Card>
@@ -112,10 +157,10 @@ const About = () => {
               </Card.Title>
               <Card.Text>
                 {/* <p> */}
-                My name is Simachew Abebe Mengiste. I identify myself best as a data
-                scientist. I am also a qualified mathematician (bachelor's and
-                master's), neuroinformatician (phd), computer scientist(phd) and
-                a junior full-stack web developer (certified).
+                My name is Simachew Abebe Mengiste. I identify myself best as a
+                data scientist. I am also a qualified mathematician (bachelor's
+                and master's), neuroinformatician (phd), computer scientist(phd)
+                and a junior full-stack web developer (certified).
                 {/* </p> */}
                 {/* <p> */}
               </Card.Text>
@@ -128,7 +173,8 @@ const About = () => {
               </Card.Text>
               <Card.Text>
                 In the future, I plan to not restrict the portifolio to web-dev
-                only, but also include my existing Python-based data science projects. 
+                only, but also include my existing Python-based data science
+                projects.
               </Card.Text>
               <Card.Text>Thanks for visiting my portifolio.</Card.Text>
             </Card.Body>
