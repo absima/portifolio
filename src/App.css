@@ -96,7 +96,7 @@ a {
 
 .appsrow button:hover,
 a:hover {
-  color: #6f0404;
+  color: rgb(220, 9, 9);
 }
 
 .controw .card{

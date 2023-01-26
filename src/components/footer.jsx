@@ -36,7 +36,11 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin}
+            style={{
+              color: '#0A66C2',
+            }}
+            />
           </a>
         </li>
         <li>
@@ -45,7 +49,12 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} 
+            
+            style={{
+              color: 'black',
+            }}
+            />
           </a>
         </li>
         <li>
@@ -54,7 +63,10 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faDiscord} />
+            <FontAwesomeIcon icon={faDiscord} 
+            style={{color: '#7289DA'}}
+
+            />
           </a>
         </li>
         
@@ -64,7 +76,9 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faYoutube} />
+            <FontAwesomeIcon icon={faYoutube} 
+            style={{color: '#FF0000'}}
+            />
           </a>
         </li>
         <li>
@@ -73,7 +87,9 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faTwitter} 
+            style={{color: '#1DA1F2'}}
+            />
           </a>
         </li>
         <li>
@@ -82,7 +98,9 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faFacebook} 
+            style = {{color: '#4267B2'}}
+            />
           </a>
         </li>
       </ul>
