@@ -122,7 +122,7 @@ const Apps = (props) => {
                 in 7 group projects to create a network of collaboration and
                 visualize it.
               </Card.Text>
-              <a href="https://collabnet.netlify.app">
+              <a href="https://collab-net.netlify.app">
                 <Button variant="primary">Visit App</Button>
               </a>
             </Card.Body>
