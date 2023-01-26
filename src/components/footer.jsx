@@ -9,6 +9,7 @@ import {
   faYoutube,
   faInstagram,
   faFacebook,
+  faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
 
 // a footer component to display the logos of the social media platforms and links to the social media pages of the company and the developer of the website. Finally the footer also displays the year of the website creation.
@@ -46,13 +47,14 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://twitter.com/absima"
+            href="https://discord.com/users/2F990615849637404702"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faDiscord} />
           </a>
         </li>
+        
         <li>
           <a
             href="https://www.youtube.com/@absima26"
@@ -64,11 +66,11 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.instagram.com/zimachow/"
+            href="https://twitter.com/absima"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
         </li>
         <li>
