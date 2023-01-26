@@ -24,6 +24,7 @@ const Footer = () => (
           listStyle: 'none',
           fontSize: '1.5rem',
           backgroundColor: '#f4f4f4',
+          border: '0.2rem solid #6f0404',
         }}
       >
         <li>
