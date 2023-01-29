@@ -23,7 +23,7 @@ const Home = (props) => {
       </Row>
       <Row>
         <Col>
-          <p>... merely about my web development experience and projects.</p>
+          <p>... about my web dev experience.</p>
         </Col>
       </Row>
     </Container>
