@@ -98,7 +98,7 @@ const Footer = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} 
+            <FontAwesomeIcon icon={faFacebook}
             style = {{color: '#4267B2'}}
             />
           </a>

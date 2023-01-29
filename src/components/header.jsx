@@ -15,8 +15,12 @@ const Header = () => {
   }, [elmentid]);
 
   useEffect(() => {
+    // if element is not null, scroll to it
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
     }
   }, [element]);
 
@@ -35,6 +39,11 @@ const Header = () => {
       // fixed="top"
       style={{
         borderBottom: '0.2rem solid #6f0404',
+        position: 'sticky',
+        top: '0',
+        zIndex: '1',
+
+        // stick
       }}
     >
       <Navbar.Brand as={Link} to="/">
@@ -55,16 +64,16 @@ const Header = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link as={NavLink} to="/about" onClick={scrollTo('about')}>
+          <Nav.Link as={NavLink} onClick={scrollTo('about')}>
             About
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/skills" onClick={scrollTo('skills')}>
+          <Nav.Link as={NavLink} onClick={scrollTo('skills')}>
             Skills
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/apps" onClick={scrollTo('apps')}>
+          <Nav.Link as={NavLink} onClick={scrollTo('apps')}>
             Apps
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/contact" onClick={scrollTo('contact')}>
+          <Nav.Link as={NavLink} onClick={scrollTo('contact')}>
             Contact
           </Nav.Link>
         </Nav>
