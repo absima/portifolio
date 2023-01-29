@@ -158,14 +158,14 @@ const About = () => {
               <Card.Text>
                 {/* <p> */}
                 My name is Simachew Abebe Mengiste. I identify myself best as a
-                data scientist. I am also a qualified mathematician (bachelor's
+                data scientist. I am also a mathematician (bachelor's
                 and master's), neuroinformatician (phd), computer scientist(phd)
-                and a junior full-stack web developer (certified).
+                and a junior full-stack web developer (certificate).
                 {/* </p> */}
                 {/* <p> */}
               </Card.Text>
               <Card.Text>
-                This portifolio currently showcases the main web development
+                This portifolio currently showcases the main web app development
                 projects I have recently worked on. The apps were designed to be
                 responsive to different screen sizes, from mobile to desktop. As
                 for the programming language used in the apps, no other than
@@ -174,7 +174,7 @@ const About = () => {
               <Card.Text>
                 In the future, I plan to not restrict the portifolio to web-dev
                 only, but also include my existing Python-based data science
-                projects.
+                projects (as highlighted in "collabnet" app).
               </Card.Text>
               <Card.Text>Thanks for visiting my portifolio.</Card.Text>
             </Card.Body>

@@ -7,7 +7,7 @@ import {
   faGithub,
   faTwitter,
   faYoutube,
-  faInstagram,
+  faDocker,
   faFacebook,
   faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
@@ -53,6 +53,19 @@ const Footer = () => (
             
             style={{
               color: 'black',
+            }}
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://hub.docker.com/u/absima"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faDocker}
+            style={{
+              color: '#2496ED',
             }}
             />
           </a>
