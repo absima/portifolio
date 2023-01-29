@@ -114,9 +114,7 @@ const Header = () => {
                   <i className="fab fa-discord"></i> Discord
                 </Dropdown.Item>
 
-                <Dropdown.Item href="https://www.youtube.com/@absima26">
-                  <i className="fab fa-youtube"></i> YouTube
-                </Dropdown.Item>
+  
               </div>
             </Dropdown.Menu>
           </Dropdown>
