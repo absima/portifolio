@@ -18,7 +18,7 @@ const Contact = (props) => {
             <Card.Body>
               <Card.Title>Phone</Card.Title>
               <Card.Text>
-                +49 (176) *** ***** (Germany)
+                +49 (176) *** *****
               </Card.Text>
             </Card.Body>
           </Card>

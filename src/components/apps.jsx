@@ -80,7 +80,7 @@ const Apps = (props) => {
                 React.js. It enables one to randomly choose an item from a group
                 of items. Users can add, remove, and edit items.
               </Card.Text>
-              <a href="https://spinner.netlify.app">
+              <a href="https://randpick.netlify.app">
                 <Button variant="primary">Visit App</Button>
               </a>
             </Card.Body>
