@@ -74,11 +74,11 @@ const Header = () => {
             Apps
           </Nav.Link>
           <Nav.Link as={NavLink} onClick={scrollTo('teamwork')}>
-            Contact
+            Teamwork
           </Nav.Link>
         </Nav>
         <Nav>
-          <Dropdown>
+          {/* <Dropdown>
             <Dropdown.Toggle variant="dark" id="dropdown-basic">
               <i className="fas fa-globe"></i>
             </Dropdown.Toggle>
@@ -117,7 +117,7 @@ const Header = () => {
   
               </div>
             </Dropdown.Menu>
-          </Dropdown>
+          </Dropdown> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
