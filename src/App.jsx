@@ -7,6 +7,9 @@ import Contact from './components/contact';
 import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
+import Teamwork from './components/teamwork';
+
+
 
 // import { ThemeProvider } from 'styled-components';
 // import { lightTheme, darkTheme, GlobalStyles } from './theme';
@@ -19,8 +22,8 @@ import './App.css';
 
 const App = () => {
   const { theme, themeToggler } = useContext(ThemeContext);
-  const comparray = [<Home />, <About />, <Skills />, <Apps />, <Contact />];
-  const navarray = ['home', 'about', 'skills', 'apps', 'contact'];
+  const comparray = [<Home />, <About />, <Skills />, <Apps />, <Teamwork />, <Contact />];
+  const navarray = ['home', 'about', 'skills', 'apps', 'teamwork', 'contact'];
 
   // const ref = useRef(null);
   // const executeScroll = () => ref.current.scrollIntoView();

@@ -38,13 +38,13 @@ const Contact = (props) => {
             <Card.Body>
               <Card.Title>City address</Card.Title>
               <Card.Text>
-                <div>Simachew Mengiste</div>
-                <div>60431 Frankfurt am Main</div>
-                <div>Germany</div>
+                {/* <div>Simachew Mengiste</div> */}
+                <div>60431 Frankfurt, Germany</div>
+                {/* <div>Germany</div> */}
 
-                <div>
+                {/* <div>
                   <a href="https://goo.gl/maps/BJnGLUn5ZHLqoDKTA" target="_blank" rel="noopener noreferrer"> Google Maps </a>
-                </div>
+                </div> */}
                 
 
               </Card.Text>

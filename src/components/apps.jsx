@@ -3,6 +3,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { useContext } from 'react';
+import { MdOpenInNew } from 'react-icons/md';
 
 import { ThemeContext } from '../contexts/themecontext';
 const Apps = (props) => {
@@ -42,8 +43,13 @@ const Apps = (props) => {
                 modify the profile page to allow users to update their
                 information.
               </Card.Text>
-              <a href="https://simazon.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a 
+              href="https://simazon.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
+                
               </a>
             </Card.Body>
           </Card>
@@ -63,8 +69,11 @@ const Apps = (props) => {
                 of its id, name or kind. There is also a memory card game that a
                 user can play by choosing one of the difficulty levels.
               </Card.Text>
-              <a href="https://pokefightdss.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a href="https://pokefightdss.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
               </a>
             </Card.Body>
           </Card>
@@ -80,8 +89,11 @@ const Apps = (props) => {
                 React.js. It enables one to randomly choose an item from a group
                 of items. Users can add, remove, and edit items.
               </Card.Text>
-              <a href="https://randpick.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a href="https://randpick.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
               </a>
             </Card.Body>
           </Card>
@@ -98,8 +110,11 @@ const Apps = (props) => {
                 and I twiked the app a bit to communicate with the API. I also
                 modified the search filter.
               </Card.Text>
-              <a href="https://simacontacts.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a href="https://simacontacts.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
               </a>
             </Card.Body>
           </Card>
@@ -116,8 +131,11 @@ const Apps = (props) => {
                 in 7 group projects to create a network of collaboration and
                 visualize it.
               </Card.Text>
-              <a href="https://collab-net.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a href="https://collab-net.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
               </a>
             </Card.Body>
           </Card>
@@ -135,8 +153,11 @@ const Apps = (props) => {
                 used React Router to create the navigation bar and the links to
                 the projects and contact pages.
               </Card.Text>
-              <a href="https://simaport.netlify.app">
-                <Button variant="primary">Visit App</Button>
+              <a href="https://simaport.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <Button variant="primary">Visit App <MdOpenInNew /> </Button>
               </a>
             </Card.Body>
           </Card>

@@ -73,7 +73,7 @@ const Header = () => {
           <Nav.Link as={NavLink} onClick={scrollTo('apps')}>
             Apps
           </Nav.Link>
-          <Nav.Link as={NavLink} onClick={scrollTo('contact')}>
+          <Nav.Link as={NavLink} onClick={scrollTo('teamwork')}>
             Contact
           </Nav.Link>
         </Nav>
