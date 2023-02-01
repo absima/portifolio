@@ -2,16 +2,17 @@
 
 import React, { useState, useEffect } from 'react';
 import { Table, Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
-import { MdOpenInNew } from 'react-icons/md';
+
+import { useContext } from 'react';
+import { ThemeContext } from '../contexts/themecontext';
 
 const projlist = [
   {
     id: 1,
     title: 'Travel Blog',
-    team: ['Jens, ', 'Bruno, ', 'Sima'],
+    team: ['Jens, ', 'Bruno, ', 'me'],
     teamlink: [
       'https:github.com/JensMatthiaschk',
       'https:github.com/brunonline02',
@@ -30,7 +31,7 @@ const projlist = [
   {
     id: 2,
     title: 'Cook-book',
-    team: ['Bruno, ', 'Julio, ', 'Samin, ', 'Sima'],
+    team: ['Bruno, ', 'Julio, ', 'Samin, ', 'me'],
     teamlink: [
       'https:github.com/brunonline02',
       'https:github.com/jltzbrg',
@@ -49,7 +50,7 @@ const projlist = [
   {
     id: 3,
     title: 'MyFlix',
-    team: ['Sivak, ', 'Fi, ', 'Arthi, ', 'Sima'],
+    team: ['Sivak, ', 'Fi, ', 'Arthi, ', 'me'],
     teamlink: [
       'https:github.com/SivakHico',
       'https:github.com/Tuffisoft',
@@ -71,7 +72,7 @@ const projlist = [
   {
     id: 4,
     title: 'PSD to HTML (1)',
-    team: ['Marina, ', 'Fi, ', 'Jens, ', 'Sima, '],
+    team: ['Marina, ', 'Fi, ', 'Jens, ', 'me'],
     teamlink: [
       'https:github.com/aquamarineru',
       'https:github.com/Tuffisoft',
@@ -95,7 +96,7 @@ const projlist = [
   {
     id: 5,
     title: 'PSD to HTML (2)',
-    team: ['Roxana, ', 'Dennis, ', 'Naser, ', 'Zan, ', 'Sima'],
+    team: ['Roxana, ', 'Dennis, ', 'Naser, ', 'Zan, ', 'me'],
     teamlink: [
       'https:github.com/roxibi',
       'https://github.com/doda1603',
@@ -118,7 +119,7 @@ const projlist = [
   {
     id: 6,
     title: 'Database',
-    team: ['Marina, ', 'Fi, ', 'Roland, ', 'Sima'],
+    team: ['Marina, ', 'Fi, ', 'Roland, ', 'me'],
     teamlink: [
       'https:github.com/aquamarineru',
       'https:github.com/Tuffisoft',
@@ -133,6 +134,9 @@ const projlist = [
 ];
 
 const Teamwork = (props) => {
+  // from themecontext
+  const { theme } = useContext(ThemeContext);
+
   const length = projlist.length;
   const [open, setOpen] = useState([false, false, false, false, false, false]);
 
@@ -143,7 +147,14 @@ const Teamwork = (props) => {
   };
 
   return (
-    <Container>
+    <Container
+      fluid
+      style={{
+        backgroundColor: theme === 'light' ? 'white' : '#1a1a1a',
+        color: theme === 'light' ? 'black' : 'white',
+        padding: '0',
+      }}
+    >
       <Row>
         <Col>
           <h1>Teamwork</h1>
@@ -152,10 +163,24 @@ const Teamwork = (props) => {
 
       <Row>
         <Col>
-          <Table 
-          striped 
-          bordered 
-          hover
+        <div 
+        style={{
+          backgroundColor: theme === 'light' ? 'white' : '#1a1a1a',
+          color: theme === 'light' ? 'black' : 'white',
+          padding: '0',
+        }}
+        >
+
+        </div>
+          <Table
+            // striped
+            bordered
+            hover
+            style={{
+              backgroundColor: theme === 'light' ? 'white' : '#1a1a1a',
+              color: theme === 'light' ? 'black' : 'white',
+              padding: '0',
+            }}
           >
             <thead>
               <tr>
@@ -204,6 +229,7 @@ const Teamwork = (props) => {
                             href={proj.teamlink[index]}
                             target="_blank"
                             rel="noopener noreferrer"
+                            key={index}
                           >
                             {member}
                           </a>

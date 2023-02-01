@@ -3,6 +3,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
+import { FaGithub } from 'react-icons/fa';
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import { MdOpenInNew } from 'react-icons/md';
+import { FaUser } from 'react-icons/fa';
+
+
 
 const Header = () => {
   const [elmentid, setElementid] = useState(null);
@@ -63,18 +69,25 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto"
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'space-around',
+
+        }}
+        >
           <Nav.Link as={NavLink} onClick={scrollTo('about')}>
-            About
+            <span style={{ color: '#6f0404' }}>A</span>bout
           </Nav.Link>
           <Nav.Link as={NavLink} onClick={scrollTo('skills')}>
-            Skills
+            <span style={{ color: '#6f0404' }}>S</span>kills
           </Nav.Link>
           <Nav.Link as={NavLink} onClick={scrollTo('apps')}>
-            Apps
+            <span style={{ color: '#6f0404' }}>A</span>pps
           </Nav.Link>
           <Nav.Link as={NavLink} onClick={scrollTo('teamwork')}>
-            Teamwork
+            <span style={{ color: '#6f0404' }}>T</span>eamwork
           </Nav.Link>
         </Nav>
         <Nav>

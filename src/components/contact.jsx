@@ -6,20 +6,18 @@ import { Link } from 'react-router-dom';
 
 const Contact = (props) => {
   return (
-    <Container >
+    <Container>
       <Row>
         <Col>
           <h1>Contact</h1>
         </Col>
       </Row>
-      <Row className='controw'>
+      <Row className="controw">
         <Col sm={12} md={4}>
           <Card>
             <Card.Body>
               <Card.Title>Phone</Card.Title>
-              <Card.Text>
-                +49 (176) *** *****
-              </Card.Text>
+              <Card.Text>+49 (176) *** *****</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -38,15 +36,10 @@ const Contact = (props) => {
             <Card.Body>
               <Card.Title>City address</Card.Title>
               <Card.Text>
-                {/* <div>Simachew Mengiste</div> */}
-                <div>60431 Frankfurt, Germany</div>
-                {/* <div>Germany</div> */}
-
+                60431 Frankfurt, Germany
                 {/* <div>
                   <a href="https://goo.gl/maps/BJnGLUn5ZHLqoDKTA" target="_blank" rel="noopener noreferrer"> Google Maps </a>
                 </div> */}
-                
-
               </Card.Text>
             </Card.Body>
           </Card>
@@ -54,7 +47,6 @@ const Contact = (props) => {
       </Row>
     </Container>
   );
-}
+};
 
 export default Contact;
-

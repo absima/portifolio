@@ -27,6 +27,7 @@ const Footer = () => (
           backgroundColor: '#f4f4f4',
           border: '0.2rem solid #6f0404',
           width: '100%',
+          // maxWidth: '25rem', 
         }}
       >
         <li>
@@ -83,7 +84,7 @@ const Footer = () => (
           </a>
         </li>
         
-        <li>
+        {/* <li>
           <a
             href="https://www.youtube.com/@absima26"
             target="_blank"
@@ -93,7 +94,7 @@ const Footer = () => (
             style={{color: '#FF0000'}}
             />
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://twitter.com/absima"

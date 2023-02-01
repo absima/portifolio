@@ -34,7 +34,7 @@ const About = () => {
               >
                 Simachew Mengiste
               </Card.Title>
-              <Card.Text>
+              {/* <Card.Text> */}
                 <div
                   style={{
                     display: 'flex',
@@ -47,8 +47,8 @@ const About = () => {
                 >
                   <img src={me} alt=" " style={{ width: '100%' }} />
                 </div>
-              </Card.Text>
-              <Card.Text
+              {/* </Card.Text> */}
+              <div
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -132,7 +132,7 @@ const About = () => {
                     </a>
                   </Col>
                 </Row> */}
-              </Card.Text>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -173,8 +173,7 @@ const About = () => {
               </Card.Text>
               <Card.Text>
                 In the future, I plan to not restrict the portifolio to web-dev
-                only, but also include my existing Python-based data science
-                projects (as highlighted in "collabnet" app).
+                only, but also include talks, blogs, tutorials on data science (mostly in Python), mathematics, machine learning, neuroinformatics and programming. 
               </Card.Text>
               <Card.Text>Thanks for visiting my portifolio.</Card.Text>
             </Card.Body>
