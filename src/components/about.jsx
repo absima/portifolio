@@ -157,7 +157,7 @@ const About = () => {
               </Card.Title>
               <Card.Text>
                 {/* <p> */}
-                My name is Simachew Abebe Mengiste. I identify myself best as a
+                My name is Simachew Mengiste. I identify myself best as a
                 data scientist. I am also a mathematician (bachelor's
                 and master's), neuroinformatician (phd), computer scientist(phd)
                 and a junior full-stack web developer (certificate).
