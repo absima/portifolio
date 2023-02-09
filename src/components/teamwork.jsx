@@ -128,7 +128,8 @@ const projlist = [
     ],
     projlink: 'https://github.com/aquamarineru/group7-database',
     details: `
-    This project used mockapi.io database to create a website that 
+    This project used mockapi.io database to create a website that loads the data in pages. It was another short time project to interract in a crossover team and learn about using a database. 
+    
     `,
   },
 ];

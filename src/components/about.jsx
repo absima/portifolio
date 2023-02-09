@@ -3,7 +3,9 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import me from '/images/me.jpg';
+// import me from '/images/me.jpg';
+import me from '/images/me2.jpeg';
+
 
 const About = () => {
   return (
@@ -39,9 +41,9 @@ const About = () => {
                   style={{
                     display: 'flex',
                     // justifyContent: 'center',
-                    // width: '100%',
-                    height: '15rem',
                     width: '18rem',
+                    // height: '18rem',
+                    // width: '18rem',
 
                   }}
                 >
@@ -157,7 +159,7 @@ const About = () => {
               </Card.Title>
               <Card.Text>
                 {/* <p> */}
-                My name is Simachew Mengiste. I identify myself best as a
+                My name is Simachew Abebe Mengiste. I identify myself best as a
                 data scientist. I am also a mathematician (bachelor's
                 and master's), neuroinformatician (phd), computer scientist(phd)
                 and a junior full-stack web developer (certificate).

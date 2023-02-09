@@ -129,7 +129,7 @@ const Footer = () => (
         }}
       >
         {/* <li>Simachew Mengiste</li> */}
-        <li>{new Date().getFullYear()} &copy; Simachew</li>
+        <li>&copy; {new Date().getFullYear()} Simachew</li>
       </ul>
     </Container>
   </footer>
