@@ -14,11 +14,11 @@ const projlist = [
     title: 'Travel Blog',
     team: ['Jens, ', 'Bruno, ', 'me'],
     teamlink: [
-      'https:github.com/JensMatthiaschk',
-      'https:github.com/brunonline02',
-      'https:github.com/absima',
+      'https://github.com/JensMatthiaschk',
+      'https://github.com/brunonline02',
+      'https://github.com/absima',
     ],
-    projlink: 'https:github.com/JensMatthiaschk/react-travel-blog',
+    projlink: 'https://github.com/JensMatthiaschk/react-travel-blog',
     details: `
     This project was done to learn about using contentful
     data management system, fetching data from contentful on
@@ -33,12 +33,12 @@ const projlist = [
     title: 'Cook-book',
     team: ['Bruno, ', 'Julio, ', 'Samin, ', 'me'],
     teamlink: [
-      'https:github.com/brunonline02',
-      'https:github.com/jltzbrg',
-      'https:github.com/Saminf90',
-      'https:github.com/absima',
+      'https://github.com/brunonline02',
+      'https://github.com/jltzbrg',
+      'https://github.com/Saminf90',
+      'https://github.com/absima',
     ],
-    projlink: 'https:github.com/brunonline02/cookbook',
+    projlink: 'https://github.com/brunonline02/cookbook',
     details: `
     In this short-time project, we were creating a website with a
                  list of some food recipes. After agreeing on the wireframe and
@@ -52,12 +52,12 @@ const projlist = [
     title: 'MyFlix',
     team: ['Sivak, ', 'Fi, ', 'Arthi, ', 'me'],
     teamlink: [
-      'https:github.com/SivakHico',
-      'https:github.com/Tuffisoft',
-      'https:github.com/ArthiRagothaman',
-      'https:github.com/absima',
+      'https://github.com/SivakHico',
+      'https://github.com/Tuffisoft',
+      'https://github.com/ArthiRagothaman',
+      'https://github.com/absima',
     ],
-    projlink: 'https:github.com/absima/groupWork_practicingReact',
+    projlink: 'https://github.com/absima/groupWork_practicingReact',
     details: `
     This project was done to learn about using react,
                  react-bootstrap, and react-router. We chose to work on building
@@ -74,12 +74,12 @@ const projlist = [
     title: 'PSD to HTML (1)',
     team: ['Marina, ', 'Fi, ', 'Jens, ', 'me'],
     teamlink: [
-      'https:github.com/aquamarineru',
-      'https:github.com/Tuffisoft',
-      'https:github.com/JensMatthiaschk',
-      'https:github.com/absima',
+      'https://github.com/aquamarineru',
+      'https://github.com/Tuffisoft',
+      'https://github.com/JensMatthiaschk',
+      'https://github.com/absima',
     ],
-    projlink: 'https:github.com/aquamarineru/psd_to_html.git',
+    projlink: 'https://github.com/aquamarineru/psd_to_html.git',
     details: `
     This project was done to create a website from an image file in
                  a PSD format. It was a great experience to learn how to use
@@ -98,13 +98,13 @@ const projlist = [
     title: 'PSD to HTML (2)',
     team: ['Roxana, ', 'Dennis, ', 'Naser, ', 'Zan, ', 'me'],
     teamlink: [
-      'https:github.com/roxibi',
+      'https://github.com/roxibi',
       'https://github.com/doda1603',
-      'https:github.com/naser0o0',
-      'https:github.com/zanlyons',
-      'https:github.com/absima',
+      'https://github.com/naser0o0',
+      'https://github.com/zanlyons',
+      'https://github.com/absima',
     ],
-    projlink: 'https:github.com/roxibi/company_profile_crossover',
+    projlink: 'https://github.com/roxibi/company_profile_crossover',
     details: `
     Similar to PSD to HTML -I, this was another project to create a
                  website from an image file in a PSD format. We divided the work
@@ -121,10 +121,10 @@ const projlist = [
     title: 'Database',
     team: ['Marina, ', 'Fi, ', 'Roland, ', 'me'],
     teamlink: [
-      'https:github.com/aquamarineru',
-      'https:github.com/Tuffisoft',
+      'https://github.com/aquamarineru',
+      'https://github.com/Tuffisoft',
       'https://github.com/rol423',
-      'https:github.com/absima',
+      'https://github.com/absima',
     ],
     projlink: 'https://github.com/aquamarineru/group7-database',
     details: `
@@ -164,15 +164,13 @@ const Teamwork = (props) => {
 
       <Row>
         <Col>
-        <div 
-        style={{
-          backgroundColor: theme === 'light' ? 'white' : '#1a1a1a',
-          color: theme === 'light' ? 'black' : 'white',
-          padding: '0',
-        }}
-        >
-
-        </div>
+          <div
+            style={{
+              backgroundColor: theme === 'light' ? 'white' : '#1a1a1a',
+              color: theme === 'light' ? 'black' : 'white',
+              padding: '0',
+            }}
+          ></div>
           <Table
             // striped
             bordered
