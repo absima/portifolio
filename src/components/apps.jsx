@@ -83,7 +83,7 @@ const Apps = (props) => {
             <Card.Body>
               <Card.Title>spinner</Card.Title>
               <Card.Text>
-                This is the first app that I have developed shortly after I
+                This is the first javascript app that I developed shortly after I
                 started learning the basics of HTML, CSS, and JavaScript. It is
                 written on a single HTML file without using a library such as
                 React.js. It enables one to randomly choose an item from a group
