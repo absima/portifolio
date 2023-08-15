@@ -9,8 +9,6 @@ import Footer from './components/footer';
 import Home from './components/home';
 import Teamwork from './components/teamwork';
 
-
-
 // import { ThemeProvider } from 'styled-components';
 // import { lightTheme, darkTheme, GlobalStyles } from './theme';
 import { useContext } from 'react';
@@ -22,7 +20,14 @@ import './App.css';
 
 const App = () => {
   const { theme, themeToggler } = useContext(ThemeContext);
-  const comparray = [<Home />, <About />, <Skills />, <Apps />, <Teamwork />, <Contact />];
+  const comparray = [
+    <Home />,
+    <About />,
+    <Skills />,
+    <Apps />,
+    <Teamwork />,
+    <Contact />,
+  ];
   const navarray = ['home', 'about', 'skills', 'apps', 'teamwork', 'contact'];
 
   // const ref = useRef(null);
@@ -31,10 +36,6 @@ const App = () => {
   return (
     <div className={theme === 'light' ? 'light' : 'dark'}>
       <Container>
-
-
-
-        
         <Button
           style={{
             margin: '1rem 0',

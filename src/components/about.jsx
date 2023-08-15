@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 // import me from '/images/me.jpg';
 import me from '/images/me.jpeg';
 
-
 const About = () => {
   return (
     <Container>
@@ -22,9 +21,7 @@ const About = () => {
         }}
       >
         <Col sm={12} md={6}>
-          <div>
-            
-          </div>
+          <div></div>
           <Card>
             <Card.Body>
               <Card.Title
@@ -37,18 +34,17 @@ const About = () => {
                 Simachew Mengiste
               </Card.Title>
               {/* <Card.Text> */}
-                <div
-                  style={{
-                    display: 'flex',
-                    // justifyContent: 'center',
-                    width: '18rem',
-                    // height: '18rem',
-                    // width: '18rem',
-
-                  }}
-                >
-                  <img src={me} alt=" " style={{ width: '100%' }} />
-                </div>
+              <div
+                style={{
+                  display: 'flex',
+                  // justifyContent: 'center',
+                  width: '18rem',
+                  // height: '18rem',
+                  // width: '18rem',
+                }}
+              >
+                <img src={me} alt=" " style={{ width: '100%' }} />
+              </div>
               {/* </Card.Text> */}
               <div
                 style={{
@@ -155,16 +151,47 @@ const About = () => {
                   // marginTop: '.6rem',
                 }}
               >
-                Briefly ...
+                Greetings,
               </Card.Title>
               <Card.Text>
-                {/* <p> */}
+                I'm Simachew Abebe Mengiste, and I proudly identify
+                as a data scientist. My journey has traversed the domains of
+                mathematics, neuroinformatics, and computer science. Armed with
+                a bachelor's and master's in mathematics, doctorates in
+                computer science and computational neuroscience, my passion
+                for knowledge is boundless. My versatility extends further as a
+                junior full-stack web developer, validated by a comprehensive
+                certificate. 
+              </Card.Text>
+              <Card.Text>
+                
+                This portfolio currently spotlights the recent
+                web app development experience. My
+                projects boast a responsive design, seamlessly adapting to an
+                array of screen dimensions, from mobile to desktop. Throughout
+                these projects, the language of choice has predominantly been
+                JavaScript. 
+              </Card.Text>
+              <Card.Text>
+                
+                In the days to come,
+                this portfolio shall expand its scope, embracing not only web
+                development but also a rich assortment of endeavors. Anticipate
+                insightful talks, enlightening blogs, and illuminating tutorials
+                on topics spanning data science, mathematics, machine learning, and
+                programming. 
+              </Card.Text>
+              <Card.Text>
+                
+                With gratitude for exploring my portfolio, I extend
+                my warm regards.
+              </Card.Text>
+
+              {/* <Card.Text>
                 My name is Simachew Abebe Mengiste. I consider myself best as a
                 data scientist. I am also a mathematician (bachelor's
                 and master's), neuroinformatician (phd), computer scientist(phd)
                 and a junior full-stack web developer (certificate).
-                {/* </p> */}
-                {/* <p> */}
               </Card.Text>
               <Card.Text>
                 This portifolio currently showcases the main web app development
@@ -177,7 +204,7 @@ const About = () => {
                 In the future, I plan to not restrict the portifolio to web-dev
                 only, but also include talks, blogs, tutorials on data science (mostly in Python), mathematics, machine learning, neuroinformatics and programming. 
               </Card.Text>
-              <Card.Text>Thanks for visiting my portifolio.</Card.Text>
+              <Card.Text>Thanks for visiting my portifolio.</Card.Text> */}
             </Card.Body>
           </Card>
         </Col>
