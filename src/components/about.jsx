@@ -154,23 +154,19 @@ const About = () => {
                 Greetings,
               </Card.Title>
               <Card.Text>
-                I'm Simachew Abebe Mengiste, and I proudly identify
-                as a data scientist. My journey has traversed the domains of
-                mathematics, neuroinformatics, and computer science. Armed with
+                I'm Simachew Abebe Mengiste, primarily a data scientist. My journey has traversed the domains of
+                mathematics, computer science and computational neuroscience. Armed with
                 a bachelor's and master's in mathematics, doctorates in
                 computer science and computational neuroscience, my passion
-                for knowledge is boundless. My versatility extends further as a
-                junior full-stack web developer, validated by a comprehensive
-                certificate. 
+                for knowledge is boundless. My versatility recently extends further as a
+                full-stack web developer. 
               </Card.Text>
               <Card.Text>
                 
                 This portfolio currently spotlights the recent
-                web app development experience. My
+                web app development experience, to which I dedicate myself in my leisure time too. My
                 projects boast a responsive design, seamlessly adapting to an
-                array of screen dimensions, from mobile to desktop. Throughout
-                these projects, the language of choice has predominantly been
-                JavaScript. 
+                array of screen dimensions, from mobile to desktop. 
               </Card.Text>
               <Card.Text>
                 
