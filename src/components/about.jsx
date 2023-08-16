@@ -154,53 +154,28 @@ const About = () => {
                 Greetings,
               </Card.Title>
               <Card.Text>
-                I'm Simachew Abebe Mengiste, primarily a data scientist. My journey has traversed the domains of
-                mathematics, computer science and computational neuroscience. Armed with
-                a bachelor's and master's in mathematics, doctorates in
-                computer science and computational neuroscience, my passion
-                for knowledge is boundless. My versatility recently extends further as a
-                full-stack web developer. 
+                I am Simachew Mengiste, primarily a data scientist. My academic journey has wandered
+                through the captivating territories of mathematics, data analysis,
+                computer science, and the multidisciplinary landscapes of
+                computational neuroscience. 
               </Card.Text>
               <Card.Text>
-                
-                This portfolio currently spotlights the recent
-                web app development experience, to which I dedicate myself in my leisure time too. My
-                projects boast a responsive design, seamlessly adapting to an
-                array of screen dimensions, from mobile to desktop. 
+                Recently, I delved into the realm of full-stack web development,
+                a fascinating blend of creativity and technology. Within this
+                portfolio, you'll find glimpses of my endeavors, a humble
+                testament to my dedication. This venture has transformed into
+                not just a pastime, but a genuine passion that invites me to
+                explore the intricate interplay of front-end and back-end
+                technologies during my leisure time. Contained within are
+                projects that nicely adapt to various screens.
               </Card.Text>
               <Card.Text>
-                
-                In the days to come,
-                this portfolio shall expand its scope, embracing not only web
-                development but also a rich assortment of endeavors. Anticipate
-                insightful talks, enlightening blogs, and illuminating tutorials
-                on topics spanning data science, mathematics, machine learning, and
-                programming. 
+                But this portfolio's narrative is just a start. Its horizons will broaden, encompassing not only
+                the craft of web development, but an array of other past, present and future pursuits in variouis topics. 
               </Card.Text>
               <Card.Text>
-                
-                With gratitude for exploring my portfolio, I extend
-                my warm regards.
+                Thanks for visiting.
               </Card.Text>
-
-              {/* <Card.Text>
-                My name is Simachew Abebe Mengiste. I consider myself best as a
-                data scientist. I am also a mathematician (bachelor's
-                and master's), neuroinformatician (phd), computer scientist(phd)
-                and a junior full-stack web developer (certificate).
-              </Card.Text>
-              <Card.Text>
-                This portifolio currently showcases the main web app development
-                projects I have recently worked on. The apps were designed to be
-                responsive to different screen sizes, from mobile to desktop. As
-                for the programming language used in the apps, no other than
-                JavaScript was used.
-              </Card.Text>
-              <Card.Text>
-                In the future, I plan to not restrict the portifolio to web-dev
-                only, but also include talks, blogs, tutorials on data science (mostly in Python), mathematics, machine learning, neuroinformatics and programming. 
-              </Card.Text>
-              <Card.Text>Thanks for visiting my portifolio.</Card.Text> */}
             </Card.Body>
           </Card>
         </Col>
