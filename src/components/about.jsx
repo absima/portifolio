@@ -162,12 +162,11 @@ const About = () => {
               <Card.Text>
                 Recently, I delved into the realm of full-stack web development,
                 a fascinating blend of creativity and technology. Within this
-                portfolio, you'll find glimpses of my endeavors, a humble
-                testament to my dedication. This venture has transformed into
-                not just a pastime, but a genuine passion that invites me to
+                portfolio, you'll find glimpses of my endeavors. This venture has transformed into
+                 a genuine passion that invites me to
                 explore the intricate interplay of front-end and back-end
-                technologies during my leisure time. Contained within are
-                projects that nicely adapt to various screens.
+                technologies. Contained within are
+                projects that nicely adapt to various screen sizes.
               </Card.Text>
               <Card.Text>
                 But this portfolio's narrative is just a start. Its horizons will broaden, encompassing not only
