@@ -61,7 +61,7 @@ const About = () => {
                 <Row>
                   <Col xs="4">email:</Col>
                   <Col>
-                    <a href="mailto:absimath@gmail.com">absimath@gmail.com</a>
+                    <a href="mailto:absima@gmail.com">absima@gmail.com</a>
                   </Col>
                 </Row>
 
