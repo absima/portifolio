@@ -1,4 +1,4 @@
-// this is the home page component to welcome visitors to the portifolio. It contains a welcome message with a background image.
+// this is the home page component to welcome visitors to the portfolio. It contains a welcome message with a background image.
 
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
@@ -18,7 +18,7 @@ const Home = (props) => {
     >
       <Row>
         <Col>
-          <h1>Welcome to my portifolio</h1>
+          <h1>Welcome to my portfolio</h1>
         </Col>
       </Row>
       <Row>

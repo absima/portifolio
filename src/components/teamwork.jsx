@@ -1,4 +1,4 @@
-// a component to highlight my teamwork experience in the portifolio page by including the github username of the team members and the github link of the project. This would be a table with the team members and the project name. The user can click on the project name to see more details about the project.
+// a component to highlight my teamwork experience in the portfolio page by including the github username of the team members and the github link of the project. This would be a table with the team members and the project name. The user can click on the project name to see more details about the project.
 
 import React, { useState, useEffect } from 'react';
 import { Table, Container, Row, Col } from 'react-bootstrap';

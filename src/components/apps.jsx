@@ -145,10 +145,10 @@ const Apps = (props) => {
           <Card>
             <Card.Body>
               <Card.Title bg="dark" text="light">
-                portifolio
+                portfolio
               </Card.Title>
               <Card.Text>
-                This is the portifolio that you are currently visiting. It is a
+                This is the portfolio that you are currently visiting. It is a
                 React app that I created to display my projects and contact
                 information. I used React Bootstrap to style the app. I also
                 used React Router to create the navigation bar and the links to

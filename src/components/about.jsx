@@ -1,4 +1,4 @@
-// This is about component of my portifolio page
+// This is about component of my portfolio page
 
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
