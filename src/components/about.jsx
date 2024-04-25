@@ -154,7 +154,7 @@ const About = () => {
                 Greetings,
               </Card.Title>
               <Card.Text>
-                I am Simachew Mengiste, primarily a data scientist. My academic journey has wandered
+                I am Simachew Mengiste. My academic journey has wandered
                 through the captivating territories of mathematics, data analysis,
                 computer science, and the multidisciplinary landscapes of
                 computational neuroscience. 
